@@ -12,7 +12,7 @@ def pytest_addoption(parser):
     parser.addoption('--language',
                      action='store',
                      default=None,
-                     help='Choose language: ru/eng/es/fr/fi/...')
+                     help='Choose language: ru/es/fr/fi/...')
 
 
 @pytest.fixture(scope='function')
