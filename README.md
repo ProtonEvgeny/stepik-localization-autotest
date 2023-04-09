@@ -1,0 +1,1 @@
+# stepik-localization-autotest
